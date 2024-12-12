@@ -1,0 +1,72 @@
+.cadastro-text {
+    background:  #FBA834;
+    padding: 40px;
+}
+
+.cadastro-title {
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.cadastro-description {
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.cadastro-text-conta {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.cadastro-text-title {
+    font-family: 400;
+}
+
+.cadastro-text-link {
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #FBA834;
+    text-decoration: none;
+    width: 103px;
+}
+
+.cadastro-form {
+    border: 1px solid #FBA834;
+    color: #403f3f;
+    font-weight: 300;
+    padding: 55px 40px;
+}
+
+.cadastro {
+    color: #FBA834;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 17px;
+}
+
+.cadastro-btn {
+    color:  #FBA834;
+    background-color:  #FBA834;;
+    font-weight: 100;
+    margin-top: 35px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.cadastro-btn button {
+    background-color: #FBA834;
+    color: white;
+}
+
+.cadastro-btn button:hover {
+    color: #403f3f;
+    align-items: center;
+    background-color: #FBA834;
+    transform: scale(1.3)ease;
+}
+
+.cadastro-imagem-logo {
+    width: 30%;
+    margin-left: 35%;
+    justify-content: center;
+}

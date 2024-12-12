@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-text a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.nav-item::marker {
+    content: none;
+}
+
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #FBA834;
+    color: white;
+}
+
+.nav-item.dropdown .nav-link {
+    color: inherit;
+}
+
+.nav-item.dropdown .nav-link:hover {
+    color: inherit;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    transform: translateX(70px);
+}
+
+.card-image {
+    width: 100px;
+    height: 90px;
+    align-items: center;
+}
+
+.card-image-logo {
+    width: 70px;
+    height: 60px;
+    margin-right: 1px;
+}
+
+.container-fluid {
+    background-color: #FBA834;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-saldo-geral {
+    margin-bottom: 50px;
+}
+
+.card-saldo {
+    background-color: #5F5B5B;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 25%;
+}
+
+.card-icon.bi-eye {
+    font-size: 20px;
+}
+
+.card-text-saldo-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-text-saldo {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.card-text-valor {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.gasto-categoria {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.card-text {
+    font-size: 20px;
+    font-weight: 200;
+    color: #363535;
+}
+
+.gasto-categoria .categoria-item {
+    border: 1px solid #ccc;
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gasto-categoria .categoria-item i {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #FBA834;
+    transition: all 0.3s ease-in-out;
+}
+
+.gasto-categoria .categoria-item:hover {
+    border: 2px solid #FBA834;
+    transform: scale(1.05);
+}
+
+.gasto-categoria .categoria-item .categoria-nome {
+    font-size: 18px;
+    font-weight: 500;
+    color: #807d7d;
+    margin-bottom: 5px;
+}
+
+.gasto-categoria .categoria-item .categoria-valor {
+    font-size: 16px;
+    font-weight: 700;
+    color: #807d7d;
+}
+
+.descricao-receita,
+.descricao-despesa i{
+    color: #FBA834;
+    font-size: 22px;
+}
+
+.descricao-receita, span{
+    color:#363535;
+    font-size: 15px;
+}
+
+.descricao-receita,
+.descricao-despesa {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 300;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-icon.bi-plus-circle {
+    align-items: center;
+}
+
+.valor-negativo {
+    color: red;
+}
+
+.valor-positivo {
+    color: green;
+}
+
+.footer {
+    margin-top: 35px;
+    background-color: #FBA834;
+    color: white;
+    padding: 10px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.footer p {
+    margin-top: 1px;
+    font-weight: 300;
+}
